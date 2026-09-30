@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+# PostgreSQL runtime driver; SQLite remains the default local database.
+psycopg[binary]
+pydantic[email]
+pyjwt
+httpx
+python-multipart
+pytest
+# offline models (optional, install when ready):
+# torch torchaudio transformers IndicTransToolkit
